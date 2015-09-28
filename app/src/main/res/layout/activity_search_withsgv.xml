@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:alpha="1"
+    android:visibility="visible">
+
+    <com.etsy.android.grid.StaggeredGridView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:item_margin="8dp"
+        android:hapticFeedbackEnabled="true"
+        app:column_count="3"
+        android:touchscreenBlocksFocus="false"
+        android:listSelector="#6de022"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/background_lights"
+        android:visibility="invisible" />
+
+</RelativeLayout>
