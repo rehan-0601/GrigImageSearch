@@ -59,7 +59,7 @@ public class ImageDisplayActivity extends AppCompatActivity {
         //load image into imageview using picassso
         //Picasso.with(this).load(result.fullUrl).into(ivImageResult);
         // Load image async from remote URL, setup share when complete
-        Toast.makeText(getApplicationContext(), result.fullUrl, Toast.LENGTH_LONG);
+        //Toast.makeText(getApplicationContext(), result.fullUrl, Toast.LENGTH_LONG);
         Picasso.with(this).load(result.fullUrl).priority(Picasso.Priority.HIGH).resize(result.width, result.height).into(ivImageResult, new Callback() {
             @Override
             public void onSuccess() {

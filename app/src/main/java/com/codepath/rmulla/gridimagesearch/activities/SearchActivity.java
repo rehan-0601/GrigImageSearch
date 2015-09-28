@@ -84,7 +84,7 @@ public class SearchActivity extends AppCompatActivity {
                 //i.putExtra("url", result.fullUrl);
                 i.putExtra("result", result);//all things need to be either serializeable or parcelable
                 //launch the new activity
-                Toast.makeText(getApplicationContext(), "starting new activity", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), "starting new activity", Toast.LENGTH_SHORT).show();
                 startActivity(i);
             }
         });
